@@ -1,5 +1,12 @@
 # EXPERIMENTAL ROBOTIC LABORATORI
 
+
+
+  <p align="center">
+ 
+  <img src="Diagrams_Pictures/expLAB.jpeg" width="650" title="hover text">
+</p>
+
 ## 1) -Brief Introduction:
 
 In this REDME the work done for this assignment will be explained :                                                                     
@@ -15,6 +22,11 @@ So the assignment consists of multiple evens, which are:
 ## 2) -Software Architecture, Temporal Diagrams and State Diagrams:
 
 ### Software Architecture:
+
+ <p align="center">
+ 
+  <img src="Diagrams_Pictures/Schermata 2022-11-27 alle 11.28.58.png" width="750" title="hover text">
+</p>
 
 The following diagram shows the software architecture of the assignment solution, as we can see the state machine communicates with Armor with 5 messages.
 
@@ -46,11 +58,23 @@ We then used then for convenience the armor_py library to call the resoner and b
 
 ### Temporal Diagrams:
 
+<p align="center">
+ 
+  <img src="Diagrams_Pictures/Schermata 2022-11-27 alle 18.36.33.png" width="750" title="hover text">
+</p>
+
 This diagram shows the time sequence of our project; bones the sequence in which the various states and Armor are called along over time.
 It can be clearly understood that the proper operation of the node (which is composed of the various states of the state machine) occurs with synchronization with Armor.                                                                                               
 In fact, there must be continuous communication with Armor, both for the Planner Action state, which must receive information from Armor to move to the correct state, and for the Room and Urgent states, which must receive information and modify the ontology in Armor.
 
 ### State Diagrams:
+
+
+
+<p align="center">
+ 
+  <img src="Diagrams_Pictures/Schermata 2022-11-28 alle 00.05.44.png" width="950" title="hover text">
+</p>
 
 This diagram shows the schematic of the finite state machine, the states it is composed of, and how the transition from one state to another takes place.
 
@@ -106,5 +130,11 @@ If we wont to see the graphical rapresentation of the State Machine and how it w
 ```bsh
           $ rosrun smach_viewer smach_viewer.py 
 ```
+## 4) - Video about assigment:
+this video show how the state machine work and  at the left side we can see the armo and the node of the state machine comunicate with each other.
+
+#### link: https://youtu.be/R5EBC7u4ep8
+
+
 
 
