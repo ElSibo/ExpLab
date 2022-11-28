@@ -58,6 +58,8 @@ The finite state machine consists of a Planner Action state (which decides what 
 
 ## 3) -Installation and Running procedure:
 
+The first think to do is dowload (with: gitclone + link of github) this repository in you workspace and make a catkin_make.
+
 For this installation procedure we have taken into account that you already have ROS installed with your work space (in case you have not done so we attach a link so you can do so) and that you also have armor already installed in your work space (in case you have not done so we attach a link so you can do so).
 
 #### (official Raccomanded) ROS Link: https://wiki.ros.org/ROS/Installation
@@ -65,6 +67,7 @@ For this installation procedure we have taken into account that you already have
 #### ARMOR link: https://github.com/EmaroLab/armor
 
 Plus you must have smach and smach viwer installed to have a graphical representation of the finite state machine, they are installed with the following commands:
+
 ```console
 # INSTALLATION
 # - eventually install smach with 
@@ -91,7 +94,17 @@ Now the first think to do is to run roscore and armor, in 2 different teriminal:
 ```
 After that, we must build the ontological map taht we need for execute the assignmnet; and we do it with this command:
 ```bsh
-  $
+          $ rosrun expLab Build_map.py 
+```
+After that, we run the State Machine, with this command:
+
+```bsh
+          $ rosrun expLab SM_assignment.py
+```
+If we wont to see the graphical rapresentation of the State Machine and how it work, we can use the smach_viwer for the graph, with this commnad :
+
+```bsh
+          $ rosrun smach_viewer smach_viewer.py 
 ```
 
 
