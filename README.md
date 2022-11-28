@@ -19,6 +19,18 @@ So the assignment consists of multiple evens, which are:
 1) Build an ontology map that needs to be uploaded to Armor.
 2) Build a finite state machine that communicates with Armor and simulates the scenario we described above.
 
+#### The following repository contains:
+
+1) A repository that contains the scripts for assignmnet and within it we find:
+
+    1.1) The armor_client.py scripts that we used to implement our scripts.
+    
+    1.2) A repository (topological_map) that contains the ontological maps of the assigment.
+    #### 1.3) The Build_map.py file the node that is used to build the ontology map for the state machine.
+    #### 1.4) The file SM_assigment.py which is the node that represents the state machine.
+2) A repository that contains the output of doxygen.(You can also run scripts on doxygen directly by choosing the most convenient output).
+3) A repository that contains the images and diagrams.
+
 ## 2) -Software Architecture, Temporal Diagrams and State Diagrams:
 
 ### Software Architecture:
