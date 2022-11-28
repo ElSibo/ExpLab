@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_s_m__assignment" kind="namespace" language="Python">
+    <compoundname>SM_assignment</compoundname>
+    <innerclass refid="class_s_m__assignment_1_1_plan__action__rob" prot="public">SM_assignment::Plan_action_rob</innerclass>
+    <innerclass refid="class_s_m__assignment_1_1_robot___move___r1" prot="public">SM_assignment::Robot_Move_R1</innerclass>
+    <innerclass refid="class_s_m__assignment_1_1_robot___move___r2" prot="public">SM_assignment::Robot_Move_R2</innerclass>
+    <innerclass refid="class_s_m__assignment_1_1_robot___move___r3" prot="public">SM_assignment::Robot_Move_R3</innerclass>
+    <innerclass refid="class_s_m__assignment_1_1_robot___move___r4" prot="public">SM_assignment::Robot_Move_R4</innerclass>
+    <innerclass refid="class_s_m__assignment_1_1_urgent" prot="public">SM_assignment::Urgent</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_s_m__assignment_8py_1a1d3706e65af258b8c9d08dc432cbf1a4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>string SM_assignment::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>=  dirname(realpath(__file__))</initializer>
+        <briefdescription>
+<para>CLIENT SET-UP we are seting the path where we will save the ontologi, and we are creating the armor client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>define the client that talk with armor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SM_assignment.py" line="29" column="1" bodyfile="SM_assignment.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_s_m__assignment_8py_1ac7eaa26c8c5ff9aefcf6da3501a6e210" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>SM_assignment.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <initializer>=  ArmorClient(&quot;My_client&quot;, &quot;My_reference&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SM_assignment.py" line="32" column="1" bodyfile="SM_assignment.py" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_s_m__assignment_8py_1a71092ca92eecf31f9a9acebd008216c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SM_assignment.Plan_action</definition>
+        <argsstring>()</argsstring>
+        <name>Plan_action</name>
+        <briefdescription>
+<para>Plan_action Function this function simulate the planner of the robot and essentially call the transition of the state, on base of the value of the visitedAt data properti of the room thath are defined in the room but before to do that, chek if there is some room in URGENCY mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SM_assignment.py" line="42" column="1" bodyfile="SM_assignment.py" bodystart="42" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="_s_m__assignment_8py_1ae8a9a2bf47975ad8a2ccd0df38d101a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def SM_assignment.main</definition>
+        <argsstring>()</argsstring>
+        <name>main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SM_assignment.py" line="376" column="1" bodyfile="SM_assignment.py" bodystart="376" bodyend="445"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SM_assignment.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

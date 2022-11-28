@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_build__map" kind="namespace" language="Python">
+    <compoundname>Build_map</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_build__map_8py_1ad7e6a27438f5ca1c2ea9359b86fa44bf" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>string Build_map::path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>=  dirname(realpath(__file__))</initializer>
+        <briefdescription>
+<para>CLIENT SET-UP we are seting the path where we wiil save the ontologi, and we are creating the armor client. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>client</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>define the client that talk with armor </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Build_map.py" line="26" column="1" bodyfile="Build_map.py" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_build__map_8py_1a4ee4bf03bf303cf83553ac9e8f74027e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Build_map.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <initializer>=  ArmorClient(&quot;My_client&quot;, &quot;My_reference&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Build_map.py" line="29" column="1" bodyfile="Build_map.py" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="_build__map_8py_1a42cdd087d6c735ec9ddf349ad8d3cf39" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>tuple Build_map::A</definition>
+        <argsstring></argsstring>
+        <name>A</name>
+        <initializer>=  client.query.dataprop_b2_ind(&apos;now&apos;, &quot;Robot1&quot;)</initializer>
+        <briefdescription>
+<para>we are informing the user </para>
+        </briefdescription>
+        <detaileddescription>
+<para>add individuals to the class DOOR (D1, ..., D7) . we are informing the user ADD INDIVIDUALS IN ROOM R1,R2,R3,R4 we are informing the user ADD INDIVIDUALS IN URGENT E we are informing the user ADD INDIVIDUAS IN CORRIDOR C1,C2 i must dijoint the clasees because door, location are diferent think Robot is in urgency room at the begining we are informing the user we add a object hasDoor to the ROOM and URGENT we add a object hasDoor to the CORRIDOR C1 we add a object hasDoor to the CORRIDOR C2 we are informing the user ask to armor hoe is the value now of Robot1 and extract the info </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Build_map.py" line="135" column="1" bodyfile="Build_map.py" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Build_map.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

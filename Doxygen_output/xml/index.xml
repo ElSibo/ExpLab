@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.17">
+  <compound refid="class_s_m__assignment_1_1_plan__action__rob" kind="class"><name>SM_assignment::Plan_action_rob</name>
+    <member refid="class_s_m__assignment_1_1_plan__action__rob_1a897559cb57be0a40929d997c6773e4d6" kind="function"><name>__init__</name></member>
+    <member refid="class_s_m__assignment_1_1_plan__action__rob_1a38ac5d4c8f4c6505848af2c2dc19e99e" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="class_s_m__assignment_1_1_robot___move___r1" kind="class"><name>SM_assignment::Robot_Move_R1</name>
+    <member refid="class_s_m__assignment_1_1_robot___move___r1_1ad6cc4684cbc7b8fb824f05d93b3dcaac" kind="function"><name>__init__</name></member>
+    <member refid="class_s_m__assignment_1_1_robot___move___r1_1afbb483d6a103b7c9d05fcd4aca9d7844" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="class_s_m__assignment_1_1_robot___move___r2" kind="class"><name>SM_assignment::Robot_Move_R2</name>
+    <member refid="class_s_m__assignment_1_1_robot___move___r2_1a0b446434592fe255f7f45701db1f6860" kind="function"><name>__init__</name></member>
+    <member refid="class_s_m__assignment_1_1_robot___move___r2_1ac664573d7a97bf2d59aca14805996b1d" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="class_s_m__assignment_1_1_robot___move___r3" kind="class"><name>SM_assignment::Robot_Move_R3</name>
+    <member refid="class_s_m__assignment_1_1_robot___move___r3_1ac203865f9118cec916a1652469ff8a37" kind="function"><name>__init__</name></member>
+    <member refid="class_s_m__assignment_1_1_robot___move___r3_1a7f0220f40079d3b4e54de9e6ff5ea0ba" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="class_s_m__assignment_1_1_robot___move___r4" kind="class"><name>SM_assignment::Robot_Move_R4</name>
+    <member refid="class_s_m__assignment_1_1_robot___move___r4_1aa89f6fd2003837959160f25aea0cbb9e" kind="function"><name>__init__</name></member>
+    <member refid="class_s_m__assignment_1_1_robot___move___r4_1a5b3ab3807c9a8ef52d30a5e91ca8ac24" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="class_s_m__assignment_1_1_urgent" kind="class"><name>SM_assignment::Urgent</name>
+    <member refid="class_s_m__assignment_1_1_urgent_1ab558d061e0319e2cec4008f6732affc0" kind="function"><name>__init__</name></member>
+    <member refid="class_s_m__assignment_1_1_urgent_1acb1905785ff0c79cadc3cf2047556e9a" kind="function"><name>execute</name></member>
+  </compound>
+  <compound refid="namespace_build__map" kind="namespace"><name>Build_map</name>
+    <member refid="_build__map_8py_1ad7e6a27438f5ca1c2ea9359b86fa44bf" kind="variable"><name>path</name></member>
+    <member refid="_build__map_8py_1a4ee4bf03bf303cf83553ac9e8f74027e" kind="variable"><name>client</name></member>
+    <member refid="_build__map_8py_1a42cdd087d6c735ec9ddf349ad8d3cf39" kind="variable"><name>A</name></member>
+  </compound>
+  <compound refid="namespace_s_m__assignment" kind="namespace"><name>SM_assignment</name>
+    <member refid="_s_m__assignment_8py_1a1d3706e65af258b8c9d08dc432cbf1a4" kind="variable"><name>path</name></member>
+    <member refid="_s_m__assignment_8py_1ac7eaa26c8c5ff9aefcf6da3501a6e210" kind="variable"><name>client</name></member>
+    <member refid="_s_m__assignment_8py_1a71092ca92eecf31f9a9acebd008216c8" kind="function"><name>Plan_action</name></member>
+    <member refid="_s_m__assignment_8py_1ae8a9a2bf47975ad8a2ccd0df38d101a3" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_build__map_8py" kind="file"><name>Build_map.py</name>
+  </compound>
+  <compound refid="_s_m__assignment_8py" kind="file"><name>SM_assignment.py</name>
+  </compound>
+</doxygenindex>
