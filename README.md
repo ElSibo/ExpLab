@@ -130,11 +130,31 @@ If we wont to see the graphical rapresentation of the State Machine and how it w
 ```bsh
           $ rosrun smach_viewer smach_viewer.py 
 ```
-## 4) - Video about assigment:
+## 4) -Video about assigment:
 this video show how the state machine work and  at the left side we can see the armo and the node of the state machine comunicate with each other.
 
 #### link: https://youtu.be/R5EBC7u4ep8
 
+## 5) -Working hypothesis and environment:
 
+### System’s features:
 
+The main goal of the system is to simulate motion in a specific context (in our case it was an indoor consisting of multiple rooms and hallways) to do this we organized the work in a finite state machine that identified the most important stages of this simulation.
+Generally the design is organized with a reasoner (armor) communicating with the node (SM_assigment.py) at different stages of the state machine.
+The first communication is when it happens with the planner that receives information from armor; this information is decisive for the next state, which can be the movement to the rooms or the movement to the ungency (for the simulation we modify the data of the ontology map that uses the reasoner armor) and then return to the planner that will decide the new movement. 
 
+### System’s limitations:
+
+The limitations of this system are mainly that it is a fairly rough simulation, because it does not take into account a dimensioned area of the map, so that the robot moves not only in rooms but also by giving it a path.
+Another limitation is that the robot's movement is decided by a state of the state machine and not by the resone, where we do not use its computational skills, must instead are used only to figure out whether the robot should go URGENT.
+
+### Possible technical Improvements:
+
+To improve our system we have to start from the limitations it has and for that I would propose to create a dimensional map of the environment (with x,y coordinates), also giving a time in the motion that will give us as a consequence the speed of the robot.
+The most important improvement in my opinion is to use the potential of the reasoner by having armor decide the next state; this would be possible if we also implement rules that decision.
+ 
+## 6) -Authors and Contacts:
+
+#### Authors: Bouazza El Moutaouakil 
+#### github: https://github.com/ElSibo
+#### contacts: siboasa@gmail.com
